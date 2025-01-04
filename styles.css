@@ -23,7 +23,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
+  color: hsl(187, 24%, 22%);
   background-color: hsl(0, 0%, 100%);
   min-width: 250px;
   max-width: 375px;
@@ -71,6 +71,8 @@ h1 {
 
 #radio {
     margin: 10px;
+    border: 1px solid hsl(187, 24%, 22%);
+    
 }
 
 #radio-2 {
@@ -78,5 +80,11 @@ h1 {
 }
 
 #terms {
+    margin: 10px;
+}
+
+.radio-group {
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
     margin: 10px;
 }
