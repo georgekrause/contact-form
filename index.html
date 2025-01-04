@@ -14,19 +14,17 @@
 <main>
   <form action="#" method="POST">
     <h1>Contact Us</h1>
-    <label for="first-name">First Name</label><br>
-    <input type="text" id="first-name" name="first-name" required><br>
-    <label for="last-name">Last Name</label><br>
-    <input type="text" id="last-name" name="last-name" required><br>
-    <label for="email">Email Address</label><br>
-    <input type="email" id="email" name="email" required><br>
-    <label for="query-type">Query Type</label><br>
-    <select id="query-type" name="query-type" required><br>
-      <option value="">Select a query type</option><br>
-      <option value="general-enquiry">General Enquiry</option>
-      <option value="support-request">Support Request</option>
-    </select><br>
-    <label for="message">Message</label><br>
+    <label for="first-name">First Name*</label><br>
+    <input type="text" class="input" id="first-name" name="first-name" required><br>
+    <label for="last-name">Last Name*</label><br>
+    <input type="text" class="input" id="last-name" name="last-name" required><br>
+    <label for="email">Email Address*</label><br>
+    <input type="email" class="input" id="email" name="email" required><br>
+    <label for="query-type">Query Type*</label><br>
+    <input type="radio" id="radio" name="query-type" value="general" required>General Enquiry<br>
+    <input type="radio" id="radio-2" name="query-type" value="feedback" required>Support Request<br>
+    <br>
+    <label for="message">Message*</label><br>
     <textarea id="message" name="message" required></textarea><br>
     <input type="checkbox" id="terms" name="terms" required>I consent to being contacted by the team*<br>
     <button type="submit">Submit</button>
