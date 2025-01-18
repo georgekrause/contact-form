@@ -69,6 +69,10 @@ h1 {
     padding: 10px;
 }
 
+h2 {
+  text-align: center;
+}
+
 #radio {
     margin: 10px;
     border: 1px solid hsl(187, 24%, 22%);
