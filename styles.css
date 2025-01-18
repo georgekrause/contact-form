@@ -92,3 +92,7 @@ h2 {
     border-radius: 5px;
     margin: 10px;
 }
+
+button:hover {
+  background-color: hsl(169, 82%, 20%);
+}
