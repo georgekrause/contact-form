@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](.images/screenshot.png)
 
 ### Links
 
 - Solution URL: [github](https://github.com/georgekrause/contact-form)
-- Live Site URL: [vercel](https://your-live-site-url.com)
+- Live Site URL: [vercel](https://contact-form-one-livid.vercel.app/)
 
 ### Built with
 
